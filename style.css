@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  border-collapse: collapse;   /* un solo borde entre celdas */
+  font-family: system-ui, sans-serif;
+}
+caption {
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+th, td {
+  padding: 10px 12px;          /* espacio interno */
+  border-bottom: 1px solid #dde1ea;
+  text-align: left;
+}
+thead th {
+  background: #e7ecfd;
+}
+tbody tr:nth-child(even) {
+  background: #f4f6fd;         /* filas intercaladas (cebra) */
+}
+tbody tr:hover {
+  background: #fff1a8;         /* resalta la fila bajo el mouse */
+}
+.numero {
+  text-align: right;           /* los números se alinean a la derecha */
+}
+tabla-contenedor {
+  overflow-x: auto;   /* solo la tabla se desplaza, no la página */
+}
